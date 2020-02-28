@@ -17,7 +17,8 @@
 		320DE38D1B6EDB07002236D7 /* IKHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3801B6EDB07002236D7 /* IKHTTP.m */; };
 		320DE38E1B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3821B6EDB07002236D7 /* IKHTTPDefaultResponseHandler.m */; };
 		320DE38F1B6EDB07002236D7 /* IKHTTPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3851B6EDB07002236D7 /* IKHTTPSession.m */; };
-		86F38C41959D1E889127FFC6 /* libPods-IKHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF794058EC1933A62B678CA7 /* libPods-IKHTTP.a */; };
+		B74A97B26D01EF8B42C3D1E8 /* libPods-IKHTTPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA594B7EECBA25F58EDE5230 /* libPods-IKHTTPTests.a */; };
+		BCD34A73259A5C033023CB96 /* libPods-IKHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CE87830FE43E9D77270E28 /* libPods-IKHTTP.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +52,12 @@
 		320DE3831B6EDB07002236D7 /* IKHTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHTTPResponseHandler.h; sourceTree = "<group>"; };
 		320DE3841B6EDB07002236D7 /* IKHTTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKHTTPSession.h; sourceTree = "<group>"; };
 		320DE3851B6EDB07002236D7 /* IKHTTPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKHTTPSession.m; sourceTree = "<group>"; };
-		6DC004FE437E6627E81B916F /* Pods-IKHTTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTP.release.xcconfig"; path = "Pods/Target Support Files/Pods-IKHTTP/Pods-IKHTTP.release.xcconfig"; sourceTree = "<group>"; };
-		AF794058EC1933A62B678CA7 /* libPods-IKHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKHTTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C880C0FDBEF05A2749A97A7B /* Pods-IKHTTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKHTTP/Pods-IKHTTP.debug.xcconfig"; sourceTree = "<group>"; };
+		749F5F5C12EA5BF2DA5DFCDC /* Pods-IKHTTPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTPTests.release.xcconfig"; path = "Target Support Files/Pods-IKHTTPTests/Pods-IKHTTPTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E4CDE61848478FCDE6E791A /* Pods-IKHTTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTP.debug.xcconfig"; path = "Target Support Files/Pods-IKHTTP/Pods-IKHTTP.debug.xcconfig"; sourceTree = "<group>"; };
+		92CE87830FE43E9D77270E28 /* libPods-IKHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKHTTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49A6F1335816A03C0DCF049 /* Pods-IKHTTPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTPTests.debug.xcconfig"; path = "Target Support Files/Pods-IKHTTPTests/Pods-IKHTTPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA594B7EECBA25F58EDE5230 /* libPods-IKHTTPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKHTTPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F090B7C136F0A5801366541A /* Pods-IKHTTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKHTTP.release.xcconfig"; path = "Target Support Files/Pods-IKHTTP/Pods-IKHTTP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F38C41959D1E889127FFC6 /* libPods-IKHTTP.a in Frameworks */,
+				BCD34A73259A5C033023CB96 /* libPods-IKHTTP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74A97B26D01EF8B42C3D1E8 /* libPods-IKHTTPTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +87,8 @@
 				320DE3721B6EDB07002236D7 /* IKHTTPUI */,
 				320DE3651B6EDADA002236D7 /* IKHTTPTests */,
 				320DE34A1B6EDADA002236D7 /* Products */,
-				AFFDB502EE64913EF4E6E1BA /* Pods */,
-				C170C4E7D9CEB5CE3B93D4D1 /* Frameworks */,
+				637FA2B75E787E103F044F26 /* Pods */,
+				EDEA63840EE65FB12E00D874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,19 +148,23 @@
 			path = IKHTTP;
 			sourceTree = "<group>";
 		};
-		AFFDB502EE64913EF4E6E1BA /* Pods */ = {
+		637FA2B75E787E103F044F26 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C880C0FDBEF05A2749A97A7B /* Pods-IKHTTP.debug.xcconfig */,
-				6DC004FE437E6627E81B916F /* Pods-IKHTTP.release.xcconfig */,
+				7E4CDE61848478FCDE6E791A /* Pods-IKHTTP.debug.xcconfig */,
+				F090B7C136F0A5801366541A /* Pods-IKHTTP.release.xcconfig */,
+				B49A6F1335816A03C0DCF049 /* Pods-IKHTTPTests.debug.xcconfig */,
+				749F5F5C12EA5BF2DA5DFCDC /* Pods-IKHTTPTests.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		C170C4E7D9CEB5CE3B93D4D1 /* Frameworks */ = {
+		EDEA63840EE65FB12E00D874 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF794058EC1933A62B678CA7 /* libPods-IKHTTP.a */,
+				92CE87830FE43E9D77270E28 /* libPods-IKHTTP.a */,
+				CA594B7EECBA25F58EDE5230 /* libPods-IKHTTPTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,11 +176,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320DE36C1B6EDADA002236D7 /* Build configuration list for PBXNativeTarget "IKHTTP" */;
 			buildPhases = (
-				510C52D0D0D07A67A96F9D24 /* Check Pods Manifest.lock */,
+				30E6128891D80CBF46C115AA /* [CP] Check Pods Manifest.lock */,
 				320DE3451B6EDADA002236D7 /* Sources */,
 				320DE3461B6EDADA002236D7 /* Frameworks */,
 				320DE3471B6EDADA002236D7 /* Resources */,
-				C68DCBCC40539D57A3C70493 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320DE36F1B6EDADA002236D7 /* Build configuration list for PBXNativeTarget "IKHTTPTests" */;
 			buildPhases = (
+				68019396467302DC56481A5A /* [CP] Check Pods Manifest.lock */,
 				320DE35E1B6EDADA002236D7 /* Sources */,
 				320DE35F1B6EDADA002236D7 /* Frameworks */,
 				320DE3601B6EDADA002236D7 /* Resources */,
@@ -258,34 +267,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		510C52D0D0D07A67A96F9D24 /* Check Pods Manifest.lock */ = {
+		30E6128891D80CBF46C115AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IKHTTP-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C68DCBCC40539D57A3C70493 /* Copy Pods Resources */ = {
+		68019396467302DC56481A5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IKHTTPTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IKHTTP/Pods-IKHTTP-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -426,7 +449,7 @@
 		};
 		320DE36D1B6EDADA002236D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C880C0FDBEF05A2749A97A7B /* Pods-IKHTTP.debug.xcconfig */;
+			baseConfigurationReference = 7E4CDE61848478FCDE6E791A /* Pods-IKHTTP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/IKHTTPUI/Info.plist";
@@ -438,7 +461,7 @@
 		};
 		320DE36E1B6EDADA002236D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DC004FE437E6627E81B916F /* Pods-IKHTTP.release.xcconfig */;
+			baseConfigurationReference = F090B7C136F0A5801366541A /* Pods-IKHTTP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/IKHTTPUI/Info.plist";
@@ -450,6 +473,7 @@
 		};
 		320DE3701B6EDADA002236D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49A6F1335816A03C0DCF049 /* Pods-IKHTTPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -469,6 +493,7 @@
 		};
 		320DE3711B6EDADA002236D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749F5F5C12EA5BF2DA5DFCDC /* Pods-IKHTTPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
