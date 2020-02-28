@@ -5,7 +5,7 @@ target 'IKHTTP' do
 	pod 'IKResults', '~> 1.0'
 	pod 'IKCore', '~> 1.0'
     pod 'IKEvents', '~> 1.0'
-    pod 'AFNetworking'
+    pod 'AFNetworking', '~> 3.2.1', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
 end
 
 target 'IKHTTPTests' do

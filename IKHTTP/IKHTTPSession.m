@@ -6,7 +6,7 @@
 //
 
 #import "IKHTTPSession.h"
-#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFHTTPSessionManager.h>
 #import <IKCore/NSObject+Null.h>
 #import <IKResults/AsyncResult.h>
 #import <IKCore/NSError+Init.h>
