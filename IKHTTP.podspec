@@ -12,4 +12,9 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.platform     = :ios
   spec.ios.deployment_target = "7.0"
+
+  spec.dependency 'IKCore', '~> 1.0'
+  spec.dependency 'IKResults', '~> 1.0'
+  spec.dependency 'IKEvents', '~> 1.0'
+  spec.dependency 'AFNetworking', '~> 3.2.1'
 end
