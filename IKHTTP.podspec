@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'IKCore', '~> 1.0'
   spec.dependency 'IKResults', '~> 1.0'
   spec.dependency 'IKEvents', '~> 1.0'
-  spec.dependency 'AFNetworking'
+  spec.dependency 'AFNetworking', '~> 3.2.1', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
 end
